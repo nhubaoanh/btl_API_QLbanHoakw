@@ -1,0 +1,11 @@
+/* pc :1024 */
+@media (min-width:1024px) {
+    .pc{
+        display: block;
+    }
+}
+@media (max-width:1023px) and (min-width : 740px){
+    .container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+.grid{
+    width: 1180px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.account-login{
+    height: 600px;
+}
+.tilte-custom{
+    padding: 5px 0;
+}
+.colums-left-left{
+    width: 50%;
+}
+.container-login{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+    padding: 16px;
+}
+.input-continue{
+    padding: 6px 12px;
+    font-size: 16px;
+    background-color: #e91e63;
+    border-radius: 3px;
+    border: none;
+    line-height: 1.8;
+    color: #fff;
+    cursor: pointer;
+}
+.input-continue > a{
+    text-decoration: none;
+    color: #fff;
+}
+.form-lable{
+    display: block;
+    padding: 5px 0;
+}
+.form-main .form-control{
+    width: 93%;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #212529;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

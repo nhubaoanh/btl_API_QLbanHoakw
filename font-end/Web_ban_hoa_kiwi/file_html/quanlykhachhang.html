@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../file_css/quanTri.css">
+    <link rel="stylesheet" href="../file_css/quantri2.css">
+    <script src="../angular/angular.min.js" ></script>
+    <script src="../angular/global.js" ></script>
+    <script src="../angular/index.js" ></script>
+    <title>QuanTriSanPham.vn</title>
+</head>
+<body ng-app = "AppBanHoa" ng-controller = "IndexCtrl">
+    <div id="add" class="row">
+        <div id="navbar">
+            <h2 class="">Flower KW
+                <i class="fa-solid fa-kiwi-bird"></i>
+            </h2>
+            
+            <ul class="navbar  white-color">
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="">Tổng quan</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <a href="./quanTriDonHang.html">Đơn hàng</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-product-hunt"></i>
+                    <a href="./quanlysanpham.html">Sản phẩm</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="./quanlykhachhang.html">Khách hàng</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <a href="./quanlynhanvien.html">Nhân viên</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <a href="../responsive-sales-dashboard-master/index.html">Báo cáo</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-brain"></i>
+                    <a href="">ứng dụng</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-truck-arrow-right"></i>
+                    <a href="">Vận chuyển</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-comments"></i>
+                    <a href="">Góp ý</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="">Cấu hình</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div id="containers">
+                <div class="header">
+                    <div class="header-main row item-center">
+                        <input type="search" class="ti-search" placeholder="Nhập thông tin cần tìm kiếm...">
+                        <div>
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <div lass="taiKhoan">
+                            <a class="taiKhoan" href=""><i class="fa-regular fa-user"></i></a>
+                        </div>
+                        <div>
+                            <a href=""><i class="fa-solid fa-bell"></i></a>
+                        </div>
+                        <div>
+                            <a href=""><i class="fa-solid fa-comments"></i></a>
+                        </div>
+                    </div>
+                    <p class="mt-16">Trang chủ > Danh mục > khachhang</p>
+                </div>
+
+
+
+                <div id="content">
+                    <div class="content-main">
+                        <div>
+                            <h3>Tất cả khách hàng</h3>
+                            <table class="table-sanPham text-center">
+                                <thead>
+                                    <tr>
+                                        <td>
+                                            #
+                                        </td>
+                                        <td>STT</td>
+                                        <td>ID Khách hàng</td>
+                                        <td>Tên khách hàng</td>
+                                        <td>Giới tính</td>
+                                        <td>Số điện thoại</td>
+                                        <td>Địa chỉ</td>
+                                        <td>Email</td>
+                                        <td>Mật khẩu</td>
+                                        <td colspan="2">Chọn</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" id="">
+                                        </td>
+                                        <td>2</td>
+                                        <td>02</td>
+                                        <td>Hoàng sơn</td>
+                                        <td>Nam</td>
+                                        <td>0985848254</td>
+                                        <td>Hải Dương</td>
+                                        <td>babyboot@mail.com</td>
+                                        <td>baby123</td>
+                                        <td class="chucNang">
+                                            <input type="submit" value="Thêm">
+                                            <input type="submit" value="Xóa">
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" id="">
+                                        </td>
+                                        <td>3</td>
+                                        <td>03</td>
+                                        <td>Trần văn minh</td>
+                                        <td>Nam</td>
+                                        <td>0985848254</td>
+                                        <td>Hải Dương</td>
+                                        <td>minhanh24@mail.com</td>
+                                        <td>minh123</td>
+                                        <td class="chucNang">
+                                            <input type="submit" value="Thêm">
+                                            <input type="submit" value="Xóa">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" id="">
+                                        </td>
+                                        <td>4</td>
+                                        <td>04</td>
+                                        <td>mỹ anh</td>
+                                        <td>Nam</td>
+                                        <td>0985848254</td>
+                                        <td>Hải Dương</td>
+                                        <td>myanh24@mail.com</td>
+                                        <td>baoanh123</td>
+                                        <td class="chucNang">
+                                            <input type="submit" value="Thêm">
+                                            <input type="submit" value="Xóa">
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" id="">
+                                        </td>
+                                        <td>5</td>
+                                        <td>05</td>
+                                        <td>nhật anh</td>
+                                        <td>nữ</td>
+                                        <td>0985848254</td>
+                                        <td>Hải Dương</td>
+                                        <td>nhatanh24@mail.com</td>
+                                        <td>nhatanh123</td>
+                                        <td class="chucNang">
+                                            <input type="submit" value="Thêm">
+                                            <input type="submit" value="Xóa">
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" id="">
+                                        </td>
+                                        <td>6</td>
+                                        <td>06</td>
+                                        <td>nguyễn văn hiếu</td>
+                                        <td>Nam</td>
+                                        <td>0985848254</td>
+                                        <td>Hải Dương</td>
+                                        <td>hieu24@mail.com</td>
+                                        <td>hieu123</td>
+                                        <td class="chucNang">
+                                            <input type="submit" value="Thêm">
+                                            <input type="submit" value="Xóa">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal thêm sản phẩm -->
+            <div id="modal-form" class="modal hidden">
+                <div class="modal-content">
+                    <span id="close-modal" class="close">&times;</span>
+                    <h3>Thêm khách hàng mới</h3>
+                    <form id="add-product-form">
+                        <label for="nhanvien-id">ID khách hàng:</label>
+                        <input type="text" id="nhanvien-id" name="product-id" required>
+
+                        <label for="custom-name">Tên khách hàng:</label>
+                        <input type="text" id="custom-name" name="custom-name" required>
+
+                        <label for="sex">Giới tính:</label>
+                        <input type="text" id="sex" name="sex" required>
+
+                        <label for="sdt">Số điện thoại:</label>
+                        <input type="text" id="sdt" name="sdt" required>
+
+                        <label for="Quê quán">Quê quán:</label>
+                        <input type="text" id="quequan" name="Quê quán" required>
+                        
+                        <label for="Email">Email</label>
+                        <input type="text" id="email" name="email" required>
+
+                        <label for="tài khoản">Mật khẩu:</label>
+                        <input type="text" id="taikhoan" name="Tài khoản" required>
+
+
+                        <button class="btn-add" type="submit">Thêm sản phẩm</button>
+                    </form>
+                </div>
+            </div>
+
+            <script>
+                // Lắng nghe sự kiện click cho nút "Xóa"
+                document.querySelectorAll('.chucNang input[value="Xóa"]').forEach(button => {
+                    button.addEventListener('click', function() {
+                        // Tìm dòng cha của nút "Xóa" và xóa nó
+                        const row = this.closest('tr');
+                        if (row) {
+                            row.remove();
+                        }
+                    });
+                });
+
+
+                document.addEventListener('DOMContentLoaded', function () {
+                // Hiển thị modal khi nhấn "Thêm"
+                document.querySelectorAll('.chucNang input[value="Thêm"]').forEach(button => {
+                    button.addEventListener('click', function () {
+                        document.getElementById('modal-form').style.display = 'flex'; // Hiện modal
+                    });
+                });
+
+                // Ẩn modal khi nhấn nút đóng
+                const closeModalBtn = document.getElementById('close-modal');
+                if (closeModalBtn) {
+                    closeModalBtn.addEventListener('click', function () {
+                        document.getElementById('modal-form').style.display = 'none'; // Ẩn modal
+                    });
+                }
+
+                // Xử lý form khi submit
+                const addProductForm = document.getElementById('add-product-form');
+                if (addProductForm) {
+                    addProductForm.addEventListener('submit', function (event) {
+                        event.preventDefault(); // Ngăn reload trang
+
+                        // Lấy dữ liệu từ form
+                        const id = document.getElementById('nhanvien-id').value.trim();
+                        const name = document.getElementById('custom-name').value.trim();
+                        const sex = document.getElementById('sex').value.trim();
+                        const sdt = document.getElementById('sdt').value.trim();
+                        const quequan = document.getElementById('quequan').value.trim();
+                        const email = document.getElementById('email').value.trim();
+                        const maykhau = document.getElementById('taikhoan').value.trim();
+
+                        // Tạo dòng mới trong bảng
+                        const table = document.querySelector('.table-sanPham tbody');
+                        const newRow = document.createElement('tr');
+                        newRow.innerHTML = `
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>${table.rows.length + 1}</td>
+                            <td>${id}</td>
+                            <td>${name}</td>
+                            <td>${sex}</td>
+                            <td>${sdt}</td>
+                            <td>${quequan}</td>
+                            <td>${email}</td>
+                            <td>${maykhau}</td>
+                            <td class="chucNang">
+                                <input type="button" value="Thêm">
+                                <input type="button" value="Xóa">
+                            </td>
+                        `;
+                        table.appendChild(newRow);
+                            
+                        debugger
+                        // Gắn lại sự kiện cho các nút "Thêm" và "Xóa"
+                        attachRowActions(newRow);
+
+                        // Ẩn modal sau khi thêm sản phẩm
+                        document.getElementById('modal-form').style.display = 'none';
+
+                        // Xóa nội dung form
+                        addProductForm.reset();
+                    });
+                }
+
+                // Hàm gắn sự kiện cho các nút "Thêm" và "Xóa"
+                function attachRowActions(row) {
+                    const addButton = row.querySelector('input[value="Thêm"]');
+                    const deleteButton = row.querySelector('input[value="Xóa"]');
+
+                    if (addButton) {
+                        addButton.addEventListener('click', function () {
+                            document.getElementById('modal-form').style.display = 'flex';
+                        });
+                    }
+
+                    if (deleteButton) {
+                        deleteButton.addEventListener('click', function () {
+                            row.remove(); // Xóa dòng hiện tại
+                        });
+                    }
+                }
+            });
+
+
+            </script>
+        </div>
+    </div>
+    
+</body>
+</html>

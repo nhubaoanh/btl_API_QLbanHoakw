@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../file_css/quanTri.css">
+    <link rel="stylesheet" href="../file_css/quantri2.css">
+    <script src="../angular/angular.min.js"></script>
+    <script src="../angular/global.js"></script>
+    <script src="../angular/index.js"></script>
+    <title>QuanTriNhanvien.vn</title>
+</head>
+<body ng-app="AppBanHoa" ng-controller="IndexCtrl">
+    <div id="add" class="row">
+        <div id="navbar">
+            <h2 class="">CGV KW
+                <i class="fa-solid fa-kiwi-bird"></i>
+            </h2>
+            
+            <ul class="navbar white-color">
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="">Tổng quan</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <a href="./quanTriDonHang.html">Đơn hàng</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-product-hunt"></i>
+                    <a href="./quanlysanpham.html">Sản phẩm</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="./quanlykhachhang.html">Khách hàng</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <a href="./quanlynhanvien.html">Nhân viên</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <a href="../responsive-sales-dashboard-master/index.html">Báo cáo</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-brain"></i>
+                    <a href="">ứng dụng</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-truck-arrow-right"></i>
+                    <a href="">Vận chuyển</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-comments"></i>
+                    <a href="">Góp ý</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="">Cấu hình</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div id="containers">
+                <div class="header">
+                    <div class="header-main row item-center">
+                        <input type="search" class="ti-search" placeholder="Nhập thông tin cần tìm kiếm...">
+                        <div>
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <div class="taiKhoan">
+                            <a class="taiKhoan" href=""><i class="fa-regular fa-user"></i></a>
+                        </div>
+                        <div>
+                            <a href=""><i class="fa-solid fa-bell"></i></a>
+                        </div>
+                        <div>
+                            <a href=""><i class="fa-solid fa-comments"></i></a>
+                        </div>
+                    </div>
+                    <p class="mt-16">Trang chủ > Danh mục > Nhân viên</p>
+                </div>
+
+                <div id="content">
+                    <div class="content-main">
+                        <div>
+                            <h3>Tất cả sản phẩm</h3>
+                            <table class="table-sanPham text-center">
+                                <thead>
+                                    <tr>
+                                        <td>STT</td>
+                                        <td>ID</td>
+                                        <td>ID Danh Mục</td>
+                                        <td>Name</td>
+                                        <td>Color</td>
+                                        <td>Size</td>
+                                        <td>Image</td>
+                                        <td>Price</td>
+                                        <td colspan="2">Option</td>
+                                    </tr>
+                                </thead>
+                                <tbody ng-repeat="x in list_product">
+                                    <tr class="body_list">
+                                        <td>
+                                            <input type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="text-ellipsis">{{x.sanPham_id}}</td>
+                                        <td class="text-ellipsis">{{x.danhmuc_id}}</td>
+                                        <td class="text-ellipsis">{{x.sanPham_name}}</td>
+                                        <td class="sanPham_color">{{x.sanPham_color}}</td>
+                                        <td class="sanPham_size">{{x.sanPham_size}}</td>
+                                        <td class="sanPham_img">
+                                            <img src="{{x.sanPham_img}}" alt="{{x.sanPham_img}}">
+                                        </td>
+                                        <td class="sanPham_price">{{x.sanPham_price}}</td>
+                                        <!-- Nút Thêm sản phẩm -->
+                                        <td class="chucNang">
+                                            <input class="them" type="submit" value="Thêm" ng-click="openModal()">
+                                            <input class="xoa" type="submit" value="Xóa">
+                                        </td>
+                                        <!-- Nút Sửa sản phẩm -->
+                                        <td class="chucNang">
+                                            <input class="sua" type="submit" value="Sửa" ng-click="openModal()">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chuyentrang">
+                    <ul class="pagination">
+                        <li class="pagination-item" ng-click="prevPage()">
+                            <i class="pagination-item__icon fa-solid fa-angle-left"></i>
+                        </li>
+                        <li class="pagination-item" ng-repeat="page in pages" ng-click="goToPage(page)">
+                            <a href="" class="pagination-item__link">{{ page }}</a>
+                        </li>
+                        <li class="pagination-item pagination-item__icon" ng-click="nextPage()">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Modal thêm sản phẩm -->
+            <div id="modal-form" class="modal hidden">
+                <div class="modal-content">
+                    <span id="close-modal" class="close" ng-click="closeModal()">&times;</span>
+                    <h3>Thêm sản phẩm mới</h3>
+                    <form id="parent-form" ng-submit="createSanPham()" ng-submit="updateSanPham()">
+                        <label for="sanPham_id">ID : </label>
+                        <input type="text" id="sanPham_id" ng-model="newSanPham.sanPham_id" required>
+
+                        <label for="danhmuc_id">ID Danh Mục : </label>
+                        <input type="text" id="danhmuc_id" ng-model="newSanPham.danhmuc_id" required>
+
+                        <label for="sanPham_name">Name : </label>
+                        <input type="text" id="sanPham_name" ng-model="newSanPham.sanPham_name" required>
+
+                        <label for="sanPham_color">Color : </label>
+                        <input type="text" id="sanPham_color" ng-model="newSanPham.sanPham_color" required>
+
+                        <label for="sanPham_size">Size : </label>
+                        <input type="text" id="sanPham_size" ng-model="newSanPham.sanPham_size" required>
+
+                        <label for="sanPham_img">Image : </label>
+                        <input type="text" id="sanPham_img" ng-model="newSanPham.sanPham_img" required>
+
+                        <label for="sanPham_price">Price : </label>
+                        <input type="text" id="sanPham_price" ng-model="newSanPham.sanPham_price" required>
+
+                        <button class="btn-add" type="submit">Thêm sản phẩm</button>
+                    </form>
+                </div>
+            </div>
+            <div id="mainDiv"></div>
+        </div>
+    </div>
+</body>
+</html>

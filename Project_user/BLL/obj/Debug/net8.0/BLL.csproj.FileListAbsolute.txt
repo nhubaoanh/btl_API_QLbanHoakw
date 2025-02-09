@@ -1,0 +1,17 @@
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\bin\Debug\net8.0\BLL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\bin\Debug\net8.0\BLL.pdb
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\bin\Debug\net8.0\DAL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\bin\Debug\net8.0\Model.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\bin\Debug\net8.0\DAL.pdb
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\bin\Debug\net8.0\Model.pdb
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.pdb
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\ref\BLL.dll

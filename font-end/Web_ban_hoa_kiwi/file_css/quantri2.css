@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#add {
+    width: 1445px;
+    margin: 0;
+}
+#navbar {
+    width: 20%;
+    height: 775px;
+    background-color: #202d3f;
+    position: fixed;
+}
+.navbar > li > a {
+    color: #fff;
+}
+.navbar > li > i {
+    margin: 0 30px;
+    font-size: 20px;
+}
+#navbar .navbar > li:hover {
+    background-color: #0188ff;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.right {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 21%;
+}
+.item-center {
+    align-items: center;
+}
+.navbar > li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+#navbar > h2 {
+    margin: 0 10px;
+    text-align: left;
+    font-size: 37px;
+    color: #fff;
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+}
+.navbar .logo_admin {
+    width: 30px;
+}
+#containers {
+    width: 95%;
+    margin: auto;
+}
+.header {
+    padding: 10px 0;
+    background-color: #fff;
+    width: 76%;
+    top: 0;
+    position: fixed;
+}
+.header-main > input {
+    font-size: 16px;
+    width: 70%;
+    padding: 10px;
+}
+.header-main > div {
+    font-size: 20px;
+    width: 10%;
+    text-align: center;
+}
+.col-01 {
+    width: 10%;
+}
+.content-main {
+    width: 100%;
+    margin: auto;
+    margin-top: 110px;
+}
+#container .link {
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 13px;
+}
+.title-content {
+    padding: 20px 0;
+}
+.fiter {
+    width: 100%;
+    height: 40px;
+}
+.fiter .select {
+    width: 100%;
+    height: 40px;
+}
+.fiter .input {
+    width: 100%;
+    height: 40px;
+}
+.table-sanPham {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-sanPham tr {
+    border-bottom: 1px solid #ccc;
+}
+.table-sanPham td {
+    padding: 20px 0;
+}
+.chucNang > input {
+    padding: 7px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.chucNang > input:hover {
+    opacity: 0.8;
+}
+.sanPham_img img {
+    width: 50px;
+    height: 50px;
+}
+.text-ellipsis {
+    max-width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+.text-ellipsis:hover {
+    white-space: normal;
+    overflow: visible;
+    position: relative;
+    z-index: 10;
+    background-color: #f5f5f5;
+}
+.chuyentrang {
+    text-align: center;
+    margin: 20px 0;
+}
+.pagination {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.pagination-item {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.pagination-item__link {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.pagination-item__link:hover {
+    background-color: #e9ecef;
+}
+.pagination-item--active .pagination-item__link {
+    background-color: #007bff;
+    color: white;
+}
+.pagination-item__icon {
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+}
+.pagination-item__icon:hover {
+    color: #0056b3;
+}
+.pagination-item__icon[disabled] {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-height: 80vh; /* Maximum height */
+    overflow-y: auto; /* Enable vertical scroll */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.scrollable-container {
+    overflow-y: auto;
+}

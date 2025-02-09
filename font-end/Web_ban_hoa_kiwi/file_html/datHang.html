@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../file_css/stype.css">
+    <link rel="stylesheet" href="../file_css/datHang.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../themify-icons/themify-icons.css">
+    <title>DatHang.com</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="header-list">
+                <div class="header-center row">
+                    <ul class="header-left row">
+                        <li>Hotline : </li>
+                        <li><a href="">1900 633 045 |</a></li>
+                        <li><a href="">0865 160 360</a></li>
+                    </ul>
+                    <ul class="header-right row">
+                        <li class="header-right-option">
+                            <i class="fa-solid fa-user"></i>
+                            <a href="">Tài khoản</a>
+                            <i class="ti-angle-down"></i>
+                            <ul class="header-right-sub">
+                                <li><a href="../file_html/dangNhap.html">Đăng nhập</a></li>
+                                <li><a href="../file_html/dangKy.html">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <a href="../file_html/gioHang.html">Giỏ hàng</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-share"></i>
+                            <a href="">Thanh toán</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container row">
+                <div class="col text-center social">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="col cotainer_img">
+                    <a href="">
+                        <img class="logo" src="../anh_thiet_ke/shop-hoa-tuoi-logo.png.webp" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="row cart">
+                        <div class="timKiem">
+                            <input class="nhap" type="search" placeholder="Tìm kiếm ">
+                        </div>
+                        <div class="gioHang" id="gioHang">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <div class="cart__main" id="cart__main">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Sản Phẩm</th>
+                                            <th>Tên</th>
+                                            <th>Sốlượng</th>
+                                            <th>Giá</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- <tr>
+                                            <td style="display: flex; align-items: center;"><img style="width: 70px;" class="sanpham-item" src="./anh_thiet_ke/bo-hoa-1.jpg.webp" alt=""></td>
+                                            <td>EndlessLove</td>
+                                            <td><input style="width: 30px; outline: none;" type="number" value="1" min="1"></td>
+                                            <td style="cursor: pointer;"><span class="gia-new">370,000VND</span></td>
+                                            <td>Xóa</td>
+                                        </tr> -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="nav row">
+                    <li>
+                        <a href="">Hoa Sinh Nhật</a>
+                        <ul class="subnav">
+                            <li><a href="">Hoa sinh nhật sang trọng</a></li>
+                            <li><a href="">Hoa sinh nhật giá rẻ</a></li>
+                            <li><a href="">Hoa tặng sinh nhật người yêu</a></li>
+                            <li><a href="">Hoa tặng sinh nhật mẹ</a></li>
+                            <li><a href="">hoa tặng sinh nhật bạn</a></li>
+                            <li><a href="">Lẵng hoa tặng sinh nhật</a></li>
+                            <li><a href="">Hoa hồng tặng sinh nhật</a></li>
+                            <li><a href="">Giỏ hàng sinh nhật</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Hoa Khai Trương</a>
+                        <ul class="subnav">
+                            <li><a href="">Hoa khai trương để bàn</a></li>
+                            <li><a href="">Kệ hoa khai trương</a></li>
+                            <li><a href="">Kệ hoa khai trang hiện đại</a></li>
+                            <li><a href="">Hoa khai trương giá rẻ</a></li>
+                            <li><a href="">Lãng hoa 2 tầng mừng khai trương</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">LAN HỒ ĐIỆP</a>
+                        <ul class="subnav">
+                            <li><a href="">Lan hồ điệp mini</a></li>
+                            <li><a href="">Lan hồ điệp vàng</a></li>
+                            <li><a href="">Lan hồ điệp trắng</a></li>
+                            <li><a href="">Lan hồ điệp tím</a></li>
+                            <li><a href="">Chậu lan hồ điệp 3 cành</a></li>
+                            <li><a href="">Chậu lan hồ điệp 5 cành</a></li>
+                            <li><a href="">Chậu lan hồ điệp 10 cành</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Chủ Đề</a>
+                        <ul class="subnav">
+                            <li><a href="">Hoa chúc mừng</a></li>
+                            <li><a href="">Hoa cưới cầm tay</a></li>
+                            <li><a href="">Hoa tang lễ - hoa chia buồn</a></li>
+                            <li><a href="">Hoa tình yêu</a></li>
+                            <li><a href="">Hoa valentine</a></li>
+                            <li><a href="">Hoa kỷ niệm đám cưới</a></li>
+                            <li><a href="">Hoa của mẹ</a></li>
+                            <li><a href="">Ngày của mẹ</a></li>
+                            <li><a href="">Hoa chúc mừng ngày 8-3</a></li>
+                            <li><a href="">Hoa chúc mừng ngày 20-10</a></li>
+                            <li><a href="">Ngày nhà giáo việt nam</a></li>
+                            <li><a href="">Giáng sinh</a></li>
+                            <li><a href="">Tết âm lịch</a></li>
+                            <li><a href="">Hoa tốt nghiệp</a></li>
+                            <li><a href="">Hoa định kỳ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Thiết kế</a>
+                        <ul class="subnav">
+                            <li><a href="">Bó hoa</a></li>
+                            <li><a href="">Lẵng hoa</a></li>
+                            <li><a href="">Giỏ hoa</a></li>
+                            <li><a href="">Kệ hoa</a></li>
+                            <li><a href="">Bình hoa</a></li>
+                            <li><a href="">Hộp hoa</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">HOA TƯƠI</a>
+                        <ul class="subnav">
+                            <li><a href="">Hoa hồng</a></li>
+                            <li><a href="">Hoa baby</a></li>
+                            <li><a href="">Hoa hướng dương</a></li>
+                            <li><a href="">Hoa lan hồ điệp</a></li>
+                            <li><a href="">Hoa tulip</a></li>
+                            <li><a href="">Hoa cúc tana</a></li>
+                            <li><a href="">Hoa thạch thảo</a></li>
+                            <li><a href="">Hoa mẫu đơn</a></li>
+                            <li><a href="">Cúc mẫu đơn</a></li>
+                            <li><a href="">Hoa cẩm tú cầu</a></li>
+                            <li><a href="">Hoa ly</a></li>
+                            <li><a href="">Hoa sen</a></li>
+                            <li><a href="">Hoa đồng tiền</a></li>
+                            <li><a href="">Hoa cẩm hương</a></li>
+                            <li><a href="">Hoa cẩm chướng</a></li>
+                            <li><a href="">Hoa cúc họa mi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Hoa Tươi Giảm 30%</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <p class="info">
+                    Đặt hoa online - giao miễn phí tp hcm & hà nội - gọi ngay 1900 633 045 hoặc 0865 160 360
+                </p>
+            </div>
+    </div>
+    <div id="content">
+        <div class="row content--product mt-32">
+            <div class="col-half container__item">
+                <img src="../anh_thiet_ke/bo-hoa-dong-tien-eap-20.jpg.webp" alt="">
+            </div>
+            <div class="col-half">
+                <h1 class="name__sanPham">Điều Hạnh Phúc</h1>
+                <div class="row price__sanPham mt-16">
+                    <div class="gia">1,050,000VND</div>
+                    <div class="gia">860,000VND</div>
+                    <div class="prices">19 % GIẢM</div>
+                </div>
+
+                <div class="box-max mt-16" id="box-max">
+
+                    <div class="row box__content">
+                        <h3 class="tilte">Khuyến mãi:</h3>
+                        <div class="box__tilte">Giảm 50k</div>
+                        <div class="box__tilte">Giảm 25k</div>
+                        <div class="box__tilte">Giảm 10%</div>
+                    </div>
+                    
+    
+                    <div class="container__box" id="container__box">
+                        <div class="row box__item">
+                            <div class="box__sm">FC50</div>
+                            <div class=" content__box">
+                                <h3>Giảm 50K</h3>
+                                <p>Giảm ngay 50k (áp dụng cho các sản phẩm chưa giảm giá) 
+                                        cho khách hàng mới khi đặt đơn từ 600k.</p>
+                            </div>
+                        </div>
+                        <div class="row box__item">
+                            <div class="box__sm">FC25</div>
+                            <div class=" content__box">
+                                <h3>Giảm 25K</h3>
+                                <p>Giảm ngay 25k (áp dụng cho các sản phẩm chưa giảm giá) cho khách hàng mới khi đặt đơn từ 300k.</p>
+                            </div>
+                        </div>
+                        <div class="row box__item">
+                            <div class="box__sm">HAPPYFRIDA</div>
+                            <div class=" content__box">
+                                <h3>Giảm 10%</h3>
+                                <p>Giảm ngay 10% (áp dụng cho các sản phẩm chưa giảm giá) khi đặt hoa vào thứ 6 hàng tuần.</p>
+                            </div>
+                        </div>                 
+                    </div>
+                </div>
+                <script>
+                    const BuyID = document.getElementById('box-max');
+                    const BuyIdBox = document.getElementById('container__box');
+                   
+                    
+                    BuyID.onclick = function(){
+                        if(BuyIdBox.style.display === "block"){
+                            BuyIdBox.style.display = "none";
+                        }else{
+                            BuyIdBox.style.display = "block";
+                        }
+                    }
+
+                    function Buy(){
+
+                    }
+                </script>
+                <div class="row phone">
+                    <div class="tilte">Gọi ngay: </div>
+                    <div class="number">
+                        1900 633 045
+                    </div>
+                </div>
+
+                <div class="row chat">
+                    <div class="tilte">Chat ngay:</div>
+                    <a href=""><img src="../anh_thiet_ke/mes.png" alt=""></a>
+                    <a href=""><img src="../anh_thiet_ke/zalo.png" alt=""></a>
+                    <a href=""><img src="../anh_thiet_ke/zalo.png" alt=""></a>
+                    <a href=""><img src="../anh_thiet_ke/zalo.png" alt=""></a>
+                    <a href=""><img src="../anh_thiet_ke/zalo.png" alt=""></a>
+                </div>
+            
+                    
+                <div class="row">
+                    <div class="tilte">Vận chuyển:</div>
+                    <div>Miễn phí giao hoa khu vực nội thành TP.HCM & Hà Nội</div>
+                </div>
+                
+                <div class="row select-map mt-16">
+                    <select class="col-half city" name="" id="select-ship">
+                        <option value="">Hà nội</option>
+                        <option value="">Tp HCM</option>
+                        <option value="">Hải Dương</option>
+                    </select>
+                    <select class="col-half city" name="" id="select-ship">
+                        <option value="">Quận Ba Đình</option>
+                        <option value="">Quận Hoàn Kiếm</option>
+                        <option value="">Quận Đống Đa</option>
+                        <option value="">Quận Thanh Xuân</option>
+                        <option value="">Quận Cầu Giấy</option>
+                        <option value="">Quận Hai Bà Trưng</option>
+                        <option value="">Quận Hà Đông</option>
+                        <option value="">Quận Bắc Từ Liêm</option>
+                        <option value="">Quận Hoàng Mai</option>
+                        <option value="">Quận Long Biên</option>
+                        <option value="">Quận Tây Hồ</option>
+                        <option value="">Quận Nam Từ Liêm</option>
+                        <option value="">Huyện Mê Linh</option>
+                        <option value="">Huyện Đông Anh</option>
+                        <option value="">Huyện Sóc Sơn</option>
+                        <option value="">Huyện Gia Lâm</option>
+                        <option value="">Huyện Ba Vì</option>
+                        <option value="">Huyện Quốc Oai</option>
+                    </select>
+                </div>
+                <p class="mt-8"><i>Phí giao hàng: Miễn phí!</i></p>
+
+                <h3 class="mt-16">Qty</h3>
+                <div class="row mt-8">
+                    <div>
+                        <input class="soLuong" type="text" placeholder="1">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-Dat">Đặt hàng</button>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-nhanh">Đặt nhanh</button>
+                    </div>
+                </div>
+                    
+                <div class="row logo-ship mt-32">
+                    <div class="row col-half logo-ship--item">
+                        <img src="../anh_thiet_ke/60mins.png" alt="">
+                        <p>Giao hoa NHANH trong 60 phút</p>
+                    </div>
+                    <div class="row col-half logo-ship--item">
+                        <img src="../anh_thiet_ke/thu.png" alt="">
+                        <p> Tặng miễn phí thiệp hoặc banner</p>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+        <div class="content-demo mt-32">
+            <div class="chiTiet">
+                <div class="row tilte">
+                    <p>Mô tả sản phẩm</p>
+                </div>
+                <div>
+                    <p class="mt-16">
+                        Cẩm chướng là loài hoa tượng trưng cho vẻ đẹp dịu dàng, đáng yêu nhưng cũng đầy bản lĩnh và mạnh mẽ. Trong cuộc đời mỗi người, cảm giác hạnh phúc nhất chính là yêu và được yêu. Một sớm mai thức dậy nhận được một bó hoa cẩm chướng xinh xắn, chắc chắn người con gái ấy sẽ cảm thấy hạnh phúc đến chừng nào. Đừng chần chừ bạn nhé, hãy gửi tình yêu bạn đến người con gái đặc biệt ấy nào.
+                    </p>
+                </div>
+                <p class="mt-16"><b>Bó hoa Điều Hạnh Phúc được thiết kế từ</b></p>
+                <ul class="mt-16">
+                    <li>Hoa hồng trắng phun xanh: 20 cành</li>
+                    <li>Hoa hồng pastel: 10 cành</li>
+                    <li>Hoa baby trắng: 50 gram</li>
+                    <li>Các loại hoa lá phụ: lá bạc</li>
+                </ul>
+                <p class="mt-16">Lưu ý</p>
+                <p class="mt-16">**Do được làm thủ công, nên sản phẩm ngoài thực tế sẽ có đôi chút khác biệt so với hình ảnh trên website. Tuy nhiên, Flowercorner cam kết hoa sẽ giống khoảng 80% so với hình ảnh.</p>
+                <p class="mt-16">** Vì các loại hoa lá phụ sẽ có tùy vào thời điểm trong năm, Flowercorner đảm bảo các loại hoa chính, các loại hoa lá phụ sẽ thay đổi phù hợp giá cả và thiết kế sản phẩm. </p>
+    
+                <h2 class="mt-16">Sản phẩm liên quan</h2>
+            </div>
+            <div class="sanpham-list row text-center mt-8">
+                <div class="sanpham ">
+                    <a href="">
+                        <img class="sanpham-item" src="../anh_thiet_ke/bo-hoa-1.jpg.webp" alt="">
+                    </a>
+                    <div class="tilte-gia mt-8">
+                        <h3 class="Product-title""><a href="">Endless Love</a></h3>
+                        <div class="price mt-8">
+                            <span class="gia-new">370,000VND</span>
+                            <span class="gia-old">480,000VND</span>
+                        </div>
+                    </div>
+                    <div class="button-buy mb-16">
+                        <button class="buynow "><a href="">Đặt hàng</a></button>
+                    </div>
+                </div>
+                <div class="sanpham">
+                    <a href="">
+                        <img class="sanpham-item" src="../anh_thiet_ke/bo-hoa-2-giam-gia.jpg.webp" alt="">
+                    </a>
+                    <div class="tilte-gia mt-8">
+                        <h3 class="Product-title""><a href="">Endless Love</a></h3>
+                        <div class="price mt-8">
+                            <span class="gia-new">370,000VND</span>
+                            <span class="gia-old">480,000VND</span>
+                        </div>
+                    </div>
+                    <div class="button-buy mb-16">
+                        <button class="buynow "><a href="">Đặt hàng</a></button>
+                    </div>
+                </div>
+                <div class="sanpham ">
+                    <a href="">
+                        <img class="sanpham-item" src="../anh_thiet_ke/bo-hoa-hong-ban-mai-3-giamGia.jpg.webp" alt="">
+                    </a>
+                    <div class="tilte-gia mt-8">
+                        <h3 class="Product-title""><a href="">Endless Love</a></h3>
+                        <div class="price mt-8">
+                            <span class="gia-new">370,000VND</span>
+                            <span class="gia-old">480,000VND</span>
+                        </div>
+                    </div>
+                    <div class="button-buy mb-16">
+                        <button class="buynow "><a href="">Đặt hàng</a></button>
+                    </div>
+                </div>
+                <div class="sanpham ">
+                    <a href="">
+                        <img class="sanpham-item" src="../anh_thiet_ke/say-you-do-4-Giam-gia.jpg.webp" alt="">
+                    </a>
+                    <div class="tilte-gia mt-8">
+                        <h3 class="Product-title""><a href="">Endless Love</a></h3>
+                        <div class="price mt-8">
+                            <span class="gia-new">370,000VND</span>
+                            <span class="gia-old">480,000VND</span>
+                        </div>
+                    </div>
+                    <div class="button-buy mb-16">
+                        <button class="buynow "><a href="">Đặt hàng</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="containers mb-68">
+            <div class="row">
+                <div class="col-4 footer__info">
+                    <img class="footer__info--logo" src="../anh_thiet_ke/shop-hoa-tuoi-logo.png.webp" alt="">
+                    <p>Hotline: 1900 633 045 - 0865 160 360</p>
+                    <p>Email: sales@flowercorner.vn</p>
+                    <div class="info-mobile">
+                        <div class="info-mobile--maQr mt-16">
+                            <img src="../anh_thiet_ke/qr.png.webp" alt="">
+                        </div>
+                        <div class="info-mobile--heThong mt-16">
+                            <p>Tải ứng dụng ngay!</p>
+                            <p><a href="">
+                                <img src="../anh_thiet_ke/appstore.png.webp" alt="">
+                                </a>
+                            </p>
+                            <p><a href="">
+                                <img src="../anh_thiet_ke/gplay.png.webp" alt="">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="logo__boCong">
+                        <a href="">
+                            <img class="boCong mt-32" src="../anh_thiet_ke/logoSaleNoti.png.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 chamSoc">
+                    <p class="tilte-chamSoc">CHĂM SÓC KHÁCH HÀNG</p>
+                    <p>
+                        <a href="">Giới Thiệu</a>
+                    </p>
+                    <p>
+                        <a href="">Liên Hệ</a>
+                    </p>
+                    <p>
+                        <a href="">Chính Sách Vận Chuyển</a>
+                    </p>
+                    <p>
+                        <a href="">Câu Hỏi Thường Gặp</a>
+                    </p>
+                    <p>
+                        <a href="">Hình Thức Thanh Toán</a>
+                    </p>
+                    <p>
+                        <a href="">Bảo Mật Thông Tin</a>
+                    </p>
+                    <p>
+                        <a href="">Chính Sách Hoàn Tiền</a>
+                    </p>
+                    <p>
+                        <a href="">Xử Lý Khiếu Nại</a>
+                    </p>
+                    <p>
+                        <a href="">Tại Sao Nên Chọn FlowerCorner.vn</a>
+                    </p>
+                    <p>
+                        <a href="">Blog</a> 
+                    </p>
+                </div>
+                <div class="col-6 chamSoc theoDoi">
+                    <h3 class="tilte-chamSoc center">THEO DÕI</h3>
+                    <p></p>
+                    <p>
+                        <i class="ti-facebook"></i>
+                        <a href=""> Facebook</a>
+                    </p>
+                    <p>
+                        <i class="ti-twitter"></i>
+                        <a href="">Twitter</a>
+                    </p>
+                    <p>
+                        <i class="ti-instagram"></i>
+                        <a href="">Instagram</a>
+                    </p>
+                    <p>
+                        <i class="ti-linkedin"></i>
+                        <a href=""> Linkedin</a>
+                    </p>
+                    <p>
+                        <i class="ti-youtube"></i>
+                        <a href="">Youtube</a>
+                    </p>
+                   
+                </div>
+                <div class="col chamSoc">
+                    <p class="tilte-chamSoc">SHOP HOA FLOWERCORNER</p>
+                    <p>
+                        <a href=""><b>Cửa hàng chính:</b>142 Nguyễn Văn Cừ, Phường Nguyễn Cư Trinh, Quận 1, TP.HCM</a>
+                    </p>
+                    <p>
+                        <a href=""><b>Cửa Hàng TP.HCM:</b>225/3 Nguyễn Đình Chiểu, Phường 5, Quận 3, TP.HCM</a>
+                    </p>
+                    <p>
+                        <a href=""><b>Chi nhánh Hà Nội:</b>65 Trần Phú, Ba Đình, Hà Nội/a>
+                    </p>
+                    <p>
+                        <a href="">CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ ZAS
+                            Mã số thuế: 0313630426
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav__bottom">
+        <ul class="row list-footer">
+            <li class="list-footer--item list-item--separate">
+                <i class="fa-solid fa-phone-volume"></i>
+                <a href="">0966469703</a>
+            </li>
+            <li class="list-footer--item list-item--separate">
+                <i class="ti-instagram"></i>
+                <a href="">Nhắn Tin instagram</a>
+            </li>
+            <li class="list-footer--item">
+                <i class="fa-solid fa-phone-volume"></i>
+                <a href="">0985848254</a>
+            </li>
+        </ul>
+    </div>
+    <script src="../file_js/home.js"></script>
+
+</body>
+</html>

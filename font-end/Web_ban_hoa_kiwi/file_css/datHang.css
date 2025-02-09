@@ -1,0 +1,169 @@
+.container__item{
+    margin: 0 20px;
+}
+.content--product{
+    width: 1180px;
+    margin: auto;
+}
+.container__item > img{
+    width: 100%;
+}
+.price__sanPham{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+.gia {
+    margin-right: 10px;
+    font-size: 21px;
+    font-weight: 500;
+   
+}
+.prices{
+    font-size: 13px;
+    background-color: #ff0000;
+    padding: 5px 15px;
+}
+
+.box-max{
+    position: relative;
+}
+
+.tilte{
+    font-weight: 600;
+    font-size: 16px;
+}
+.box__tilte {
+
+    margin-left: 3px;
+    margin-right: 10px;
+    background-color: #ffe1e1;
+    border: 1px dashed #000;
+    padding:2px 5px;
+    font-size: 14px;
+    color: #dc1b57;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.box-max .box__tilte:hover {
+    opacity: 0.8;
+}
+
+.box__item{
+    border: 1px dashed #dc1b57;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 4px 9px 0 #dbdbdb;
+    border-radius: 3px;
+    background: #ffe7e7;
+    
+    
+}
+
+.container__box{
+    display: none;
+    /* top: 55px; */
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px 30px;
+    height: 250px;
+    overflow-y: auto;
+}
+.box__sm{
+    width: 25%;
+    background:#dc1b57;
+    text-align: center;
+    min-height: 80px;
+    line-height: 80px;
+    color: #fff;
+}
+.content__box{
+    width: 73%;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.content__box > h3,p{
+    width: 100%;
+}
+.phone{
+    padding: 13px 0;
+    align-items: center;
+    
+}
+.number{
+    padding: 5px 10px;
+    background: #ffe1e1;
+    font-size: 20px;
+    font-weight: 750;
+    text-align: center;
+    margin-left: 15px;
+    color: #db1b57;
+}
+.chat{
+    align-items: center;
+    padding: 20px 0;
+}
+.chat > a> img{
+    height: 36px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.select-map{
+    justify-content: space-between;
+}
+#select-ship{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.city{
+    width: 48%;
+}
+.soLuong{
+    width: 19px;
+    padding: 7px 12px;
+    line-height: 1.8;
+    border-radius: 5px;
+
+}
+.btn{
+    padding: 8px 43px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-Dat{
+    background-color: orange;
+}
+.btn-nhanh{
+    background-color: #e55f00;;
+}
+.logo-ship .logo-ship--item > img{
+    max-width: 64px;
+}
+.content-demo{
+    width: 1180px;
+    margin: auto;
+    /* border-bottom: 1px solid #ccc; */
+}
+.chiTiet  > .tilte p{
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    /* border-color: #dee2e6 #dee2e6 #fff; */
+    
+}
+.chiTiet  > ul li{
+    margin-left: 20px;
+}
+.chiTiet {
+    margin: 0 18px;
+}

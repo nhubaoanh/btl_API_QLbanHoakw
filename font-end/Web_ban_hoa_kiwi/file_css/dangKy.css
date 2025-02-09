@@ -1,0 +1,71 @@
+.containerss{
+    width: 1180px;
+    margin: auto;
+    min-height: 600px;
+}
+.content-left{
+    width: 80%;
+    
+}
+.content-left-main{
+    width: 95%;
+    margin: auto;
+}
+.content-right{
+    width: 25%;
+}
+.content-right-main{
+    width: 90%;
+    margin: auto;
+}
+.tilte-your{
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.input-info{
+    width: 100%;
+}
+.input-firstname{
+    font-weight: 600;
+    padding: 0 12px;
+}
+.form-control{
+    padding: 6px 12px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #212529;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.btn-continue{
+    padding: 6px 12px;
+    font-size: 16px;
+    background-color: #e91e63;
+    border-radius: 3px;
+    border: none;
+    line-height: 1.8;
+    color: #fff;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.btn-continue:hover{
+    opacity: 0.8;
+}
+.list-group{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.list-group-item{
+    padding: 9px 5px;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.list-group-item:hover{
+    opacity: 0.8;
+}

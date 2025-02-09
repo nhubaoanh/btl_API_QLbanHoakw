@@ -1,0 +1,171 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:9395"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api-nguoidung/sanpham/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "DownstreamPathTemplate": "/api/sanpham/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 64951
+        }
+      ],
+      "AddHeadersToRequest": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api-nguoidung/danhmuc/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "DownstreamPathTemplate": "/api/danhmuc/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 64951
+        }
+      ],
+      "AddHeadersToRequest": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api-nguoidung/order/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "DownstreamPathTemplate": "/api/order/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 64951
+        }
+      ],
+      "AddHeadersToRequest": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api-nguoidung/user/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST"],
+      "DownstreamPathTemplate": "/api/user/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 64951
+        }
+      ],
+      "AddHeadersToRequest": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/sanpham/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/SanPham/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ],
+      "AddHeadersToRequest": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/Order/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/Order/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ],
+      "AddHeadersToRequest": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/DanhMuc/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/DanhMuc/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/Users/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/Users/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/NhanVien/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/NhanVien/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/Nhacc/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/Nhacc/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/KhachHang/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/KhachHang/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api-admin/HoaDonNhap/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "DownstreamPathTemplate": "/api/HoaDonNhap/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44475
+        }
+      ]
+    }
+
+
+  ]
+}

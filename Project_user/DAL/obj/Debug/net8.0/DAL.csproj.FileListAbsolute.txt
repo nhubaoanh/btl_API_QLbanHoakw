@@ -1,0 +1,15 @@
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\bin\Debug\net8.0\DAL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\bin\Debug\net8.0\Model.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\bin\Debug\net8.0\Model.pdb
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\ref\DAL.dll
