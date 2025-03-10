@@ -15,3 +15,4 @@ D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Proj
 D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\refint\BLL.dll
 D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.pdb
 D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\ref\BLL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\BLL\obj\Debug\net8.0\BLL.sourcelink.json

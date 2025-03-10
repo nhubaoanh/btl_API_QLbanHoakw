@@ -13,3 +13,4 @@ D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Proj
 D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\refint\DAL.dll
 D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.pdb
 D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\Programming_Center\Programming_DichVu\code_webAPI\Programming_API_BanHoa\Project_user\DAL\obj\Debug\net8.0\DAL.sourcelink.json
